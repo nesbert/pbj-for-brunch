@@ -1,4 +1,4 @@
-PBJ for Brunch
+PB&J for Brunch
 ==============
 
 [Brunch](http://brunch.io) skeleton/boilerplate for developing HTML5 applications. Main languages are Javascript, CSS and [Handlebars](http://handlebarsjs.com).
@@ -26,15 +26,13 @@ Create a new application.
 brunch new <new-pbj-application> -s git@github.com:nesbert/pbj-for-brunch.git
 ```
 
-Or clone this repository locally.
+Or clone this repository locally and install dependencies.
 
 ```bash
+# clone and name application
 git clone git@github.com:nesbert/pbj-for-brunch.git <new-pbj-application>
-```
 
-Install Brunch & application dependencies.
-
-```bash
+# install application dependencies
 npm install
 ```
 

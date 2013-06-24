@@ -7,7 +7,7 @@ var Application = Chaplin.Application.extend({
 
   // Set your application name here so the document title is set to
   // “Controller title – Site title” (see Layout#adjustTitle)
-  title: 'PBJ for Brunch',
+  title: 'PB&J for Brunch',
 
   initialize: function() {
     // Call the parent constructor.
