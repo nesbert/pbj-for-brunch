@@ -1,12 +1,12 @@
 {
   "author": "Nesbert Hidalgo",
   "name": "PB&J for Brunch",
-  "description": "Package description",
+  "description": "Brunch skeleton/boilerplate for developing HTML5 applications. Main languages are Javascript, CSS and Handlebars.",
   "version": "0.0.1",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/nesbert/pbj-for-brunch"
   },
   "engines": {
     "node": "~0.6.10 || 0.8 || 0.9"
