@@ -3,7 +3,7 @@
   "name": "pbj-for-brunch",
   "description": "Brunch skeleton/boilerplate for developing HTML5 applications. Main languages are Javascript, CSS and Handlebars.",
   "version": "0.0.1",
-  "license" : "MIT",
+  "license": "MIT",
   "homepage": "",
   "repository": {
     "type": "git",
@@ -13,24 +13,17 @@
     "node": "~0.6.10 || 0.8 || 0.9"
   },
   "scripts": {
-    "start": "brunch watch --server",
-    "test": "brunch test"
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "dependencies": {
-    "javascript-brunch": ">= 1.0 < 1.6",
-
-    "css-brunch": ">= 1.0 < 1.6",
-
-    "handlebars-brunch": ">= 1.0 < 1.7",
-
-    "uglify-js-brunch": ">= 1.0 < 1.6",
-    "clean-css-brunch": ">= 1.0 < 1.6",
-
-    "bower": "~0.9.2"
+    "bower": "~0.9.2",
+    "css-brunch": "~1.6.0",
+    "clean-css-brunch": "~1.6.0",
+    "handlebars-brunch": "~1.5.4",
+    "javascript-brunch": "~1.6.0",
+    "jshint-brunch": "~1.6.0",
+    "stylus-brunch": "~1.6.1",
+    "uglify-js-brunch": "~1.7.0"
   },
-  "devDependencies": {
-  },
-  "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install"
-  }
+  "devDependencies": {}
 }

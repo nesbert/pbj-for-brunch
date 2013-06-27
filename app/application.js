@@ -40,7 +40,9 @@ var Application = Chaplin.Application.extend({
     this.startRouting();
 
     // Freeze the application instance to prevent further changes.
-    if (Object.freeze) Object.freeze(this);
+    if (Object.freeze) {
+      Object.freeze(this);
+    }
   },
 
   // Create additional mediator properties

@@ -6,8 +6,7 @@ exports.config = {
       joinTo: {
         'js/app.js': /^app/,
         'js/vendor.js': function(path) {
-          var included, scripts;
-          scripts = [
+          var scripts = [
             'vendor/modernizr/modernizr.js',
             'vendor/console-helper/index.js',
             'vendor/jquery/jquery.js',
@@ -35,8 +34,7 @@ exports.config = {
       joinTo: {
         'css/app.css': /^app/,
         'css/vendor.css': function(path) {
-          var included, styles;
-          styles = [
+          var styles = [
             'vendor/normalize/normalize.css',
             'vendor/bootstrap/css/bootstrap.css'
             ];
@@ -45,7 +43,7 @@ exports.config = {
       },
       order: {
         before: [
-          'app/styles/base/style.css',
+          'app/styles/base/style.styl',
           'vendor/normalize/normalize.css',
           'vendor/bootstrap/css/bootstrap.css',
           'vendor/bootstrap/css/bootstrap-responsive.css'
@@ -55,6 +53,19 @@ exports.config = {
     },
     templates: {
       joinTo: 'js/app.js'
+    }
+  },
+  plugins: {
+    jshint: {
+      pattern: /^app\/.*\.js$/,
+      options: {
+        bitwise: true,
+        curly: true,
+        quotmark: 'single'
+      },
+      globals: {
+        jQuery: true
+      }
     }
   }
 };

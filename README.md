@@ -8,10 +8,12 @@ PB&J for Brunch
 - [Brunch](http://brunch.io) workflow automation.
 - [Backbone](http://backbonejs.org)/[Chaplin](http://chaplinjs.org) provides the application architecture.
 - [Handlebars](http://handlebarsjs.com) for semantic templating.
+- [Stylus](http://learnboost.github.io/stylus/) for css preprocessing.
 - [Bootstrap](http://twitter.github.io/bootstrap/) for some UI/UX goodness.
 - [Bower](http://bower.io) is used for front-end package management.
 - [Modernizr](http://modernizr.com) for feature detection.
 - [Initializr](http://www.initializr.com) as a HTML5 application starting point.
+- [JSHint](http://www.jshint.com) for javascript linting.
 - [Framework TBD] for testing.
 
 ## Getting Started
@@ -62,9 +64,11 @@ Made by OSS <3.
 - [Chaplin](http://chaplinjs.org)
 - [Handlebars](http://handlebarsjs.com)
 - [Initializr](http://www.initializr.com)
+- [JSHint](http://www.jshint.com)
 - [jQuery](http://jquery.com)
 - [Modernizr](http://modernizr.com)
 - [node.js](http://nodejs.org)
+- [Stylus](http://learnboost.github.io/stylus/)
 - [Underscore](http://underscorejs.org)
 
 ## License

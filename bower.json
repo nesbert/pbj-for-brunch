@@ -1,12 +1,4 @@
 {
-  "name": "PB&J for Brunch",
-  "version": "0.0.1",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "vendor",
-    "components"
-  ],
   "dependencies": {
     "underscore": "~1.4.4",
     "backbone": "~1.0.0",
