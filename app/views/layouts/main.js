@@ -9,6 +9,7 @@ module.exports = BaseView.extend({
 
     regions: {
       '#header-region': 'header',
+      '#footer-region': 'footer',
       '#main-region': 'main'
     },
 
