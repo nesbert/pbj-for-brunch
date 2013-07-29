@@ -1,7 +1,14 @@
-var Chaplin,
-    __slice = [].slice;
+var Chaplin  = require('chaplin'),
+    __slice  = [].slice,
+    partials = require('partials');
 
-Chaplin = require('chaplin');
+// register handlebars.js partials
+
+_.each(partials, function(partial){
+  if ('name' in partial && 'path' in partial) {
+    Handlebars.registerPartial(partial.name, require(partial.path));
+  }
+});
 
 // handlebars.js helpers
 

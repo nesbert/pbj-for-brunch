@@ -1,5 +1,5 @@
 var Chaplin     = require('chaplin'),
-    ViewHelpers = require('views/helper'),
+    ViewHelper  = require('libs/view-helper'),
     MainView    = require('views/layouts/main'),
     HeaderView  = require('views/layouts/header'),
     FooterView  = require('views/layouts/footer');
