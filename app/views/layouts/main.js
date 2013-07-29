@@ -1,7 +1,7 @@
 var BaseView = require('views/base/view'),
     template = require('templates/layouts/main');
 
-var IndexView = BaseView.extend({
+module.exports = BaseView.extend({
 
     container: 'body',
 
@@ -15,5 +15,3 @@ var IndexView = BaseView.extend({
     template: template
 
 });
-
-module.exports = IndexView;

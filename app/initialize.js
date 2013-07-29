@@ -1,6 +1,4 @@
-var  Application;
-
-Application = require('application');
+var  Application = require('application');
 
 $(function() {
 

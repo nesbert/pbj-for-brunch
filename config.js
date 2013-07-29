@@ -61,7 +61,7 @@ exports.config = {
       options: {
         bitwise: true,
         curly: true,
-        quotmark: 'single'
+        quotmark: true
       },
       globals: {
         jQuery: true

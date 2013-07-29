@@ -1,7 +1,7 @@
 var BaseView = require('views/base/view'),
     template = require('templates/layouts/header');
 
-var IndexView = BaseView.extend({
+module.exports = BaseView.extend({
 
     autoRender: true,
 
@@ -14,5 +14,3 @@ var IndexView = BaseView.extend({
     template: template
 
 });
-
-module.exports = IndexView;

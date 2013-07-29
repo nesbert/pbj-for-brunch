@@ -1,7 +1,7 @@
 PB&J for Brunch
 ==============
 
-[Brunch](http://brunch.io) skeleton/boilerplate for developing HTML5 applications. Main languages are Javascript, CSS and [Handlebars](http://handlebarsjs.com).
+[Brunch](http://brunch.io) skeleton/boilerplate for developing HTML5 applications. Main languages are Javascript, CSS/[Stylus](http://learnboost.github.io/stylus/) and [Handlebars](http://handlebarsjs.com).
 
 ### Features
 
@@ -33,6 +33,9 @@ Or clone this repository locally and install dependencies.
 ```bash
 # clone and name application
 git clone git@github.com:nesbert/pbj-for-brunch.git <new-pbj-application>
+
+# change to project directory
+cd <new-pbj-application>
 
 # install application dependencies
 npm install

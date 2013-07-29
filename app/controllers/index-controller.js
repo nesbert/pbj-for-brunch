@@ -5,10 +5,8 @@ var Chaplin    = require('chaplin'),
 // set page title
 Chaplin.mediator.publish('!adjustTitle', 'Yummy!');
 
-var IndexController = Controller.extend({
+module.exports = Controller.extend({
   index: function() {
     this.view = new View({region:'main'});
   }
 });
-
-module.exports = IndexController;
