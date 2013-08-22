@@ -1,4 +1,5 @@
 {
+  "name": "pbj-for-brunch",
   "dependencies": {
     "underscore": "~1.4.4",
     "backbone": "~1.0.0",
@@ -8,5 +9,8 @@
     "modernizr": "Iristyle/bower-modernizr#~2.6.2",
     "console-helper": "paulmillr/console-polyfill#~0.1.0",
     "jquery": "components/jquery#~1.9.1"
+  },
+  "devDependencies": {
+    "sinonjs": "~1.7.1"
   }
 }

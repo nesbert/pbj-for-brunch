@@ -1,11 +1,10 @@
-var __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
-
 exports.config = {
   files: {
     javascripts: {
       joinTo: {
         'js/app.js': /^app/,
         'js/vendor.js': function(path) {
+          // list of vendor files to concatenate
           var scripts = [
             'vendor/modernizr/modernizr.js',
             'vendor/console-helper/index.js',
@@ -14,9 +13,10 @@ exports.config = {
             'vendor/backbone/backbone.js',
             'vendor/chaplin/brunch/chaplin.js',
             'vendor/scripts/brunch-JavaScriptCompiler-handlebars.runtime-1.0.js',
-            'vendor/bootstrap/js/bootstrap.js'
+            'vendor/bootstrap/js/bootstrap.js',
+            'vendor/sinonjs/sinon.js'
             ];
-          return __indexOf.call(scripts, path) >= 0;
+          return Array.prototype.indexOf.call(scripts, path) >= 0;
         }
       },
       order: {
@@ -34,11 +34,12 @@ exports.config = {
       joinTo: {
         'css/app.css': /^app/,
         'css/vendor.css': function(path) {
+          // list of vendor files to concatenate
           var styles = [
             'vendor/normalize/normalize.css',
             'vendor/bootstrap/css/bootstrap.css'
             ];
-          return __indexOf.call(styles, path) >= 0;
+          return Array.prototype.indexOf.call(styles, path) >= 0;
         }
       },
       order: {
