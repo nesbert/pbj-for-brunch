@@ -22,7 +22,7 @@ Must have [node.js](http://nodejs.org), [Brunch](http://brunch.io) and [Bower](h
 
 ### Installation
 
-Create a new application.
+Create a new application via [Brunch](http://brunch.io)@1.6.7.
 
 ```bash
 brunch new <new-pbj-application> -s git@github.com:nesbert/pbj-for-brunch.git
@@ -47,10 +47,10 @@ Brunch [commands](https://github.com/brunch/brunch/blob/master/docs/commands.md)
 
 ```bash
 # continuous incremental rebuild + web server (dev version)
-brunch w -s
+./node_modules/.bin/brunch w -s
 
 # build for deployment (optimized version)
-brunch b -o
+./node_modules/.bin/brunch b -o
 
 # view aplication
 open http://localhost:3333
