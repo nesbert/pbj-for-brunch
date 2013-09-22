@@ -18,14 +18,14 @@ PB&J for Brunch
 
 ## Getting Started
 
-Must have [node.js](http://nodejs.org), [Brunch](http://brunch.io) and [Bower](http://bower.io) installed.
+Must have [node.js](http://nodejs.org) installed. Optionally have [Brunch](http://brunch.io) and [Bower](http://bower.io) globally installed.
 
 ### Installation
 
-Create a new application via [Brunch](http://brunch.io)@1.6.7.
+Create a new application via [Brunch](http://brunch.io)@1.7.6.
 
 ```bash
-brunch new <new-pbj-application> -s git@github.com:nesbert/pbj-for-brunch.git
+brunch new git@github.com:nesbert/pbj-for-brunch.git <new-pbj-application>
 ```
 
 Or clone this repository locally and install dependencies.
