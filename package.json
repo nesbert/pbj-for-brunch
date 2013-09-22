@@ -2,29 +2,26 @@
   "author": "Nesbert Hidalgo",
   "name": "pbj-for-brunch",
   "description": "Brunch skeleton/boilerplate for developing HTML5 applications. Main languages are Javascript, CSS and Handlebars.",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "license": "MIT",
   "homepage": "",
   "repository": {
     "type": "git",
     "url": "https://github.com/nesbert/pbj-for-brunch"
   },
-  "engines": {
-    "node": "~0.6.10 || 0.8 || 0.9"
-  },
-  "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install"
-  },
   "dependencies": {
-    "brunch": "~1.6.7",
-    "bower": "~1.2.3",
+    "brunch": "~1.7.6",
+    "bower": "~1.2.6",
     "css-brunch": "~1.6.0",
     "clean-css-brunch": "~1.6.0",
-    "handlebars-brunch": "~1.5.4",
+    "handlebars-brunch": "~1.7.2",
     "javascript-brunch": "~1.6.0",
     "jshint-brunch": "~1.6.0",
-    "stylus-brunch": "~1.6.1",
-    "uglify-js-brunch": "~1.7.0"
+    "stylus-brunch": "~1.7.0",
+    "uglify-js-brunch": "~1.7.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "./build/post-install.sh"
+  }
 }

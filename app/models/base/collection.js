@@ -1,5 +1,4 @@
-var Chaplin = require('chaplin'),
-    Model = require('./model');
+var Model = require('./model');
 
 module.exports = Chaplin.Collection.extend({
 

@@ -1,5 +1,5 @@
 var BaseView = require('views/base/view'),
-    template = require('templates/layouts/main');
+    template = require('templates/layouts/site');
 
 module.exports = BaseView.extend({
 
@@ -8,9 +8,9 @@ module.exports = BaseView.extend({
     id: 'site-container',
 
     regions: {
-      '#header-region': 'header',
-      '#footer-region': 'footer',
-      '#main-region': 'main'
+      main: '#main-container',
+      header: '#header-container',
+      footer: '#footer-container'
     },
 
     template: template

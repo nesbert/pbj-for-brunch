@@ -1,16 +1,34 @@
 {
   "name": "pbj-for-brunch",
   "dependencies": {
-    "underscore": "~1.4.4",
+    "underscore": "~1.5.2",
     "backbone": "~1.0.0",
-    "chaplin": "~0.9.0",
-    "bootstrap": "components/bootstrap#~2.3.2",
-    "normalize": "necolas/normalize.css#~2.1.2",
+    "chaplin": "~0.11.0",
+    "bootstrap": "components/bootstrap#~3.0.0",
     "modernizr": "Iristyle/bower-modernizr#~2.6.2",
     "console-helper": "paulmillr/console-polyfill#~0.1.0",
-    "jquery": "components/jquery#~1.9.1"
+    "jquery": "components/jquery#~1.10.2",
+    "holderjs": "~2.1.0"
   },
   "devDependencies": {
     "sinonjs": "~1.7.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "jquery": "~1.10.2"
+    },
+    "underscore": {
+      "main": "underscore.js",
+      "dependencies": {
+        "jquery": "~1.10.2"
+      }
+    },
+    "backbone": {
+      "main": "backbone.js",
+      "dependencies": {
+        "underscore": "~1.5.2",
+        "jquery": "~1.10.2"
+      }
+    }
   }
 }

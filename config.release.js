@@ -7,15 +7,15 @@ config.files.javascripts.joinTo['js/app.js'] = /^app(\/|\\)(?!mocks|contracts)/;
 config.files.javascripts.joinTo['js/vendor.js'] = function(path) {
   var scripts = [
     // list of vendor files to concatenate
-    'vendor/modernizr/modernizr.js',
-    'vendor/console-helper/index.js',
-    'vendor/jquery/jquery.js',
-    'vendor/underscore/underscore.js',
-    'vendor/backbone/backbone.js',
-    'vendor/chaplin/brunch/chaplin.js',
-    'vendor/scripts/brunch-JavaScriptCompiler-handlebars.runtime-1.0.js',
-    'vendor/bootstrap/js/bootstrap.js'
-    // removed 'vendor/sinonjs/sinon.js'
+    'bower_components/modernizr/modernizr.js',
+    'bower_components/console-helper/index.js',
+    'bower_components/jquery/jquery.js',
+    'bower_components/underscore/underscore.js',
+    'bower_components/backbone/backbone.js',
+    'bower_components/chaplin/chaplin.js',
+    'bower_components/bootstrap/js/bootstrap.js',
+    'bower_components/holderjs/holder.js',
+    // removed 'bower_components/sinonjs/sinon.js'
     ];
   return Array.prototype.indexOf.call(scripts, path) >= 0;
 };

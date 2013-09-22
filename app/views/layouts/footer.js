@@ -3,14 +3,14 @@ var BaseView = require('views/base/view'),
 
 module.exports = BaseView.extend({
 
-    autoRender: true,
+  autoRender: true,
 
-    id: 'footer',
+  id: 'footer',
 
-    className: 'footer',
+  className: 'footer',
 
-    region: 'footer',
+  region: 'footer',
 
-    template: template
+  template: template
 
 });

@@ -1,6 +1,4 @@
-var Chaplin  = require('chaplin'),
-    __slice  = [].slice,
-    partials = require('partials');
+var partials = require('partials');
 
 // register handlebars.js partials
 
@@ -33,7 +31,7 @@ Handlebars.registerHelper('url', function() {
   var options, params, routeName, _i;
 
   routeName = arguments[0];
-  params = 3 <= arguments.length ? __slice.call(arguments, 1, _i = arguments.length - 1) : (_i = 1, []);
+  params = 3 <= arguments.length ? Array.slice.call(arguments, 1, _i = arguments.length - 1) : (_i = 1, []);
   options = arguments[_i++];
   return Chaplin.helpers.reverse(routeName, params);
 });
